@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="nextButtonHome" prefHeight="501.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.expensetracker.Controller">
+   <Label layoutX="165.0" layoutY="182.0" prefHeight="18.0" prefWidth="148.0" text="USERNAME:" textFill="#ff00a1">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="139.0" layoutY="92.0" text="Welcome to the Expense Tracker" textFill="#e00000" textOverrun="CENTER_ELLIPSIS" underline="true">
+      <font>
+         <Font name="System Bold Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label fx:id="showUserDetails" alignment="CENTER" layoutX="327.0" layoutY="186.0" prefHeight="18.0" prefWidth="86.0" text="username" textAlignment="CENTER" textFill="#0009ff">
+      <font>
+         <Font size="18.0" />
+      </font></Label>
+   <Button alignment="CENTER" layoutX="257.0" layoutY="333.0" mnemonicParsing="false" onAction="#connectButton" prefHeight="34.0" prefWidth="128.0" text="Button" textAlignment="CENTER">
+      <effect>
+         <Glow />
+      </effect></Button>
+   <Label fx:id="showUserID" layoutX="333.0" layoutY="237.0" prefHeight="18.0" prefWidth="148.0" text="id" textFill="#1100ff">
+      <font>
+         <Font size="18.0" />
+      </font></Label>
+   <Label layoutX="204.0" layoutY="233.0" text="USERID:" textFill="#ff00cc">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+</AnchorPane>
